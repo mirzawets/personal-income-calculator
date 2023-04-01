@@ -198,9 +198,9 @@ input[type='number'] {
 }
 
 @media only screen and (max-width: 800px) {
-/*   body {
+  body {
     padding-left: 5px;
-  } */
+  }
 
   .inputs-block {
     flex-direction: column;
