@@ -8,6 +8,10 @@ body {
   padding-left: 162px;
 }
 
+.main-wrapper {
+  overflow: hidden;
+}
+
 .main-wrapper h1 {
   font-weight: bold;
   font-size: 38px;
@@ -194,10 +198,9 @@ input[type='number'] {
 }
 
 @media only screen and (max-width: 800px) {
-  body {
+/*   body {
     padding-left: 5px;
-    padding-rigth: 5px;
-  }
+  } */
 
   .inputs-block {
     flex-direction: column;
