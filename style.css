@@ -8,10 +8,6 @@ body {
   padding-left: 162px;
 }
 
-.main-wrapper {
-  overflow: hidden;
-}
-
 .main-wrapper h1 {
   font-weight: bold;
   font-size: 38px;
@@ -216,5 +212,9 @@ input[type='number'] {
 
   .total-numb {
     margin-bottom: 10px;
+  }
+  
+  .main-wrapper {
+    overflow: hidden;
   }
 }
