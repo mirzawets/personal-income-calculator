@@ -38,7 +38,7 @@ function calculationPrecents() {
   accumulation = parseFloat(((totalMonth * totalPrecents) / 100).toFixed(2));
   accumulationInput.value = accumulation;
 
-  spendInput.value = totalMonth - accumulation;
+  spendInput.value = parseFloat((totalMonth - accumulation).toFixed(2));
 
   totalDay = parseFloat((spendInput.value / 30).toFixed(2));
   totalDayInput.value = totalDay;
